@@ -1,0 +1,202 @@
+::selection{
+    background-color: #0078ff;
+    color: #fff;
+}
+.home {
+    background-image: url(../imgs/bg/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+h1 {
+    font-size: 60px;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    height: 3px;
+    width: 0;
+    transition: .3s;
+}
+.nav-link:hover::after {
+    width: 40px;
+}
+.about .about-me h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 90px;
+    background-color: #0078ff;
+}
+.about .info .bottom .full,
+.about .info .bottom .HTML,
+.about .info .bottom .CSS3,
+.about .info .bottom .php,
+.about .info .bottom .java-script {
+    height: 10px;
+}
+.about .info .bottom .HTML {
+    width: 85%;
+}
+.about .info .bottom .php {
+    width: 50%;
+}
+.about .info .bottom .java-script {
+    width: 90%;
+}
+.about .info .top .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+.underline::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    height: 5px;
+    width: 30px;
+    background-color: #0078ff;
+    margin-left: 50%;
+    transform: translate(-15px, 0);
+}
+.service {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(130, 130, 130, 0.771);
+    border: none;
+    text-align: center;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border: 8px solid #0078ff;
+    transition: .3s;
+}
+.service:hover .icon {
+    background-color: #0078ff;
+    border-color: #cde1f8;
+    color: white;
+}
+.bg {
+    background-image: url(../imgs/bg/counters-bg.jpg);
+    background-position: center center;
+}
+.work-card {
+    box-shadow: 0 0 10px rgba(130, 130, 130, 0.771);
+}
+.portfolio .container .img img {
+    transition: .3s;
+} 
+.portfolio .container .work-card:hover img {
+    transform: scale(1.3);
+}
+.portfolio .container .card-body .btn {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+.portfolio .profile-slider {
+    background-image: url(../imgs/bg/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.portfolio .profile-slider .icon {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.carousel-indicators [data-bs-target] {
+    height: 8px;
+    width: 20px;
+    transition: .6s;
+}
+.carousel-indicators [data-bs-target]:focus {
+    width: 30px;
+    background-color: #1b1b1b;
+}
+.carousel-indicators [type="button"]:active  {
+    width: 30px;
+    background-color: #1b1b1b;
+}
+.blog .row .work-card h5 {
+    background-color: #0078ff;
+    color: #fff;
+    text-align: center;
+    bottom: -10px;
+    font-size: 15px;
+}
+
+.blog .row .work-card .btn {
+    transition: .6s;
+    font-size: 20px;
+    padding-left: 0;
+    text-align: left;
+}
+.blog .row .work-card .btn:hover {
+    color: #0078ff;
+}
+.blog .row .work-card .author a {
+    text-decoration: none;
+    transition: .6s;
+}
+.blog .row .work-card .author a span {
+    transition: .6s;
+}
+.blog .row .work-card .author a:hover span {
+    color: #0078ff;
+}
+.blog .row .work-card .author img {
+    width: 40px;
+}
+.contact {
+    background-image: url(../imgs/bg/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.contact .get-in-touch .social-icons {
+    font-size: 30px;
+}
+.contact .get-in-touch .social-icons .i {
+    text-decoration: none;
+    color: #1b1b1b;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: #0078ff 5px solid;
+    transition: .6s;
+    cursor: pointer;
+}
+.contact .get-in-touch .social-icons .i:hover {
+    color: #fff;
+    background-color: #0078ff;
+    border-color: #cde1f8;
+}
+
+.contact .get-in-touch h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 90px;
+    background-color: #0078ff;
+}
+.contact .message-details h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 90px;
+    background-color: #0078ff;
+}
+.contact .message-details .btn:hover {
+    box-shadow: 0 0 0 4px #cde1f8;
+}
